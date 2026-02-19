@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeba Catharin | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="hero-lightpass"></canvas>
+
+    <nav>
+        <div class="logo">JC.</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="glass-card">
+                <h1>Jeba Catharin</h1>
+                <p>Electronics & Communication Engineer</p>
+                <span>Specializing in Industrial Automation & Embedded Systems</span>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="glass-card">
+                <h2>About Me</h2>
+                <p>B.E. Student at GCE Tirunelveli (CGPA: 8.33). Passionate about building innovative technology solutions that solve real-world engineering challenges.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="glass-card">
+                <h2>Featured Projects</h2>
+                <div class="project-item">
+                    <h3>Industrial Automation using PLC</h3>
+                    <p>Designed ladder logic for automated control systems, reducing manual error and increasing efficiency.</p>
+                </div>
+                <div class="project-item">
+                    <h3>IoT Garbage Segregation</h3>
+                    <p>Automated waste management using Arduino, IR sensors, and ultrasonic level detection.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="glass-card">
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Google:</strong> Engineering Intern - Innovation & Scalability.</li>
+                    <li><strong>Microsoft:</strong> Engineering Intern - Cloud Solutions.</li>
+                    <li><strong>LinkedIn:</strong> Engineering Intern - Data-driven Networking.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div id="chat-widget">
+        <div id="chat-header" onclick="toggleChat()">Ask JC AI <span>▼</span></div>
+        <div id="chat-body">
+            <div id="chat-messages"></div>
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Ask about my experience...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
